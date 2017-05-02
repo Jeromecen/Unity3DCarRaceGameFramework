@@ -1,6 +1,6 @@
 赛车游戏框架，不仅仅是赛车类型游戏，其它类型游戏也可以拓展使用。
 本框架的特点：
-1.策划excel to protobuff for c#工具，通过protobuff高效读取策划表。
+1.提供策划excel to protobuff for c# 的Mac和PC端Shell脚本工具，通过protobuff高效读取策划表。
 2.有很好的Resource资源重用结构。
 3.2D地图的手机适配，地图的运动逻辑设置，障碍车或NPC的刷兵机制实现。
 4.战斗组件消息和广播消息框架，避免使用unity低效的sendMessage API,和提供unity没有的跨游戏对象广播机制。
