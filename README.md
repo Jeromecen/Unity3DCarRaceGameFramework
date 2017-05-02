@@ -6,4 +6,4 @@ The framework of the characteristics:
 4. Combat the component message and broadcast the message frame, avoid the use of the delegate inefficient sendMessage API, and provide unity without cross-game object broadcast mechanism. 
 5. Based on the physical collision trigger combat skills system, skills effects and skills template reuse mechanism, can also be extended for the use of space segmentation attacks and attackers. 
 6.Provide aUI management structure, can effectively reuse UI, and adjust the UI level. 
-7. A Secure asynchronous event structure (avoid using asynchronous event manager mode), can effectively achieve the unit performance, skills, templates, or UI animation. 
+7. A Secure asynchronous event structure, can effectively achieve the unit performance, skills, templates, or UI animation. 
