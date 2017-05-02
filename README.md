@@ -5,5 +5,5 @@ The framework of the characteristics:
 3. Provide a 2D map of the mobile phone adaptation, the map of the movement of logic settings, obstacles or NPC brush soldiers mechanism to achieve. 
 4. Combat the component message and broadcast the message frame, avoid the use of the delegate inefficient sendMessage API, and provide unity without cross-game object broadcast mechanism. 
 5. Based on the physical collision trigger combat skills system, skills effects and skills template reuse mechanism, can also be extended for the use of space segmentation attacks and attackers. 
-6.Provide aUI management structure, can effectively reuse UI, and adjust the UI level. 
+6. To provide aUI management structure, can effectively reuse UI, and adjust the UI level.
 7. A Secure asynchronous event structure (avoid using asynchronous event manager mode), can effectively achieve the unit performance, skills, templates, or UI animation. 
