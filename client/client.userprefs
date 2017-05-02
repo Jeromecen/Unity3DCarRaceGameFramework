@@ -1,0 +1,79 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Client/Battle/Unit/MoveCom.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Client/Battle/Unit/MoveCom.cs" Line="271" Column="10" />
+      <File FileName="Assets/Scripts/Client/Battle/Unit/ColliderCom.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Battle/Player/Player.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Common/Ctrl/IBroadcastEventListener.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Camera/ResolutionAdapter.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Battle/Map/MapLogic.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Mgr/ResMgr.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Mgr/BattleUnitFactory.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Battle/MoveScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Battle/LifeBar.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Battle/HealthScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Battle/EnemyScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Battle/FindPath/PlayerMove.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Server/DataConfig/ProtoGen/tnt_deploy_car_pos.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Common/Ctrl/CComponent.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Common/Ctrl/CObject.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Mgr/BroadcastEventMgr.cs" Line="1" Column="1" />
+      <File FileName="Assets/Main.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Battle/BattleInstance/BattleInstance.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/UI/UIUtil/UILogic.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/RendererExtensions.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Server/Mgr/DataCfgMgr.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Battle/Unit/BattleUnit.cs" Line="1" Column="1" />
+      <File FileName="Assets/UIBattleTest.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Common/Ctrl/Const_Util.cs" Line="61" Column="6" />
+      <File FileName="Assets/Scripts/Common/Util/Singleton.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/AsyncEvent/MoveToEvent.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/AsyncEvent/TimerEvent.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/AsyncEvent/AsyncEventBase.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/AsyncEvent/MoveByEvent.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/AsyncEvent/OneTimeEvent.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/AsyncEvent/ParallelEvent.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/AsyncEvent/SeqEvent.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/UI/Battle/UIBattle.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Common/Ctrl/TestConfig.cs" Line="10" Column="49" />
+      <File FileName="Assets/Scripts/Client/AsyncEvent/ScaleEvent.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Battle/Unit/ScaleCom.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Mgr/UIMgr.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/UI/Base/UIHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Mgr/UIReg.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Battle/Unit/AttrCom.cs" Line="27" Column="6" />
+      <File FileName="Assets/Scripts/Client/Battle/Unit/NitrogenCom.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/UI/UIUtil/ButtonEventListener.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/UI/UIUtil/DragEventListener.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/AsyncEvent/MoveToEventY.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Server/Net/LoginRoleInfo.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Server/Net/NetReceive.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Server/Net/NetSend.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Server/Net/NetThread.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Server/Net/BattlePlayersInfo.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Battle/Unit/SkillCom.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Battle/Skill/SkillBrushMgr.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Battle/Skill/SkillBase.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Server/DataConfig/ProtoGen/tnt_deploy_skill.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/AsyncEvent/AccMoveEvent.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/AsyncEvent/CanvasGroupFade.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Common/Ctrl/BattleMsgDef.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Common/Ctrl/NetMsgDef.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/AsyncEvent/UIAccMoveEvent.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Battle/Skill/SkillMgr.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Battle/Skill/AntitankAttack.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Common/Util/ObjectUtil.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Client/Battle/Skill/SkillBaseInfoCom.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/3rdPart/protobuf-net/BclHelpers.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/samcen/Desktop/work/c1/client/Assets/Scripts/Client/Battle/Unit/MoveCom.cs" line="232" column="22" />
+      <Breakpoint file="/Users/samcen/Desktop/work/c1/client/Assets/Scripts/Client/Battle/Unit/MoveCom.cs" line="140" column="1" />
+      <Breakpoint file="/Users/samcen/Desktop/work/c1/client/Assets/Scripts/Client/Battle/Unit/MoveCom.cs" line="281" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

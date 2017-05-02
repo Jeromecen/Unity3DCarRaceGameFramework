@@ -1,0 +1,51 @@
+/**
+* @file:   tnt_deploy_skill.proto
+* @author: jameyli <jameyli AT tencent DOT com>
+* @brief:  这个文件是通过工具自动生成的，建议不要手动修改
+*/
+
+package tnt_deploy;
+
+message SKILL{
+    /** 技能id */
+    required uint32 id = 1 [default = 0];
+    /** 名称 */
+    optional string name = 2 [default = ""];
+    /** 技能模板 */
+    optional string template = 3 [default = ""];
+    /** 技能特效路径 */
+    optional string respath = 4 [default = ""];
+    /** 技能图标 */
+    optional string ui_skill_icon = 5 [default = ""];
+    /** 命中特效路径 */
+    optional string hit_efx = 6 [default = ""];
+    /** 特效类型 */
+    optional uint32 type = 7 [default = 0];
+    /** 特效发射方向 */
+    optional uint32 dir = 8 [default = 0];
+    /** 汽车避免方式 */
+    optional uint32 avoid_method = 9 [default = 0];
+
+    message velocity{
+        /** 特效速度x单位m/s */
+        optional float x = 1 [default = 0];
+        /** 特效速度y单位m/s */
+        optional float y = 2 [default = 0];
+    }
+
+    optional velocity efx_velocity = 10;
+    /** 特效存在时间 */
+    optional float duration = 11 [default = 0];
+    /** 汽车命中速度缩放 */
+    optional float speed_scale = 12 [default = 0];
+    /** 汽车作用改变时间 */
+    optional float chg_time = 13 [default = 0];
+    /** 汽车持续时间 */
+    optional float continue_time = 14 [default = 0];
+    /** 汽车恢复时间 */
+    optional float reset_time = 15 [default = 0];
+}
+
+message SKILL_ARRAY {
+    repeated SKILL items = 1;
+}

@@ -1,0 +1,140 @@
+items {
+  id: 1
+  name: "\345\274\271\346\200\247\346\211\213\351\233\267"
+  template: "Antitank"
+  respath: "Prefabs/Skill/skill_test"
+  ui_skill_icon: "Sprites/Scenes/Volcano/volcano1"
+  hit_efx: "Prefabs/Efx/Battle/skill_hit_fix"
+  type: 1
+  dir: 1
+  avoid_method: 2
+  efx_velocity {
+    x: 6.0
+    y: 6.0
+  }
+  duration: 10.0
+  speed_scale: 0.5
+  chg_time: 1.0
+  continue_time: 3.0
+  reset_time: 1.0
+}
+items {
+  id: 2
+  name: "\350\267\237\350\270\252\345\207\217\351\200\237\345\274\271"
+  template: "TrackBomb"
+  respath: "Prefabs/Skill/skill_test"
+  ui_skill_icon: "Sprites/Scenes/Volcano/volcano2"
+  hit_efx: "Prefabs/Efx/Battle/skill_hit_fix"
+  type: 1
+  dir: 1
+  avoid_method: 2
+  efx_velocity {
+    x: 6.0
+    y: 6.0
+  }
+  duration: 10.0
+  speed_scale: 0.5
+  chg_time: 1.0
+  continue_time: 3.0
+  reset_time: 1.0
+}
+items {
+  id: 3
+  name: "\345\206\260\345\206\273\347\220\203"
+  template: "IceBall"
+  respath: "Prefabs/Skill/skill_test"
+  ui_skill_icon: "Sprites/Scenes/Volcano/volcano3"
+  hit_efx: "Prefabs/Efx/Battle/skill_hit_fix"
+  type: 2
+  dir: 1
+  avoid_method: 2
+  efx_velocity {
+    x: 6.0
+    y: 6.0
+  }
+  duration: 10.0
+  speed_scale: 0.0
+  chg_time: 1.0
+  continue_time: 3.0
+  reset_time: 1.0
+}
+items {
+  id: 4
+  name: "\347\253\240\351\261\274"
+  template: "Octopus"
+  respath: "Prefabs/Skill/skill_test"
+  ui_skill_icon: "Sprites/Scenes/City/city1"
+  hit_efx: "Prefabs/Efx/Battle/skill_hit_fix"
+  type: 3
+  dir: 1
+  avoid_method: 2
+  efx_velocity {
+    x: 6.0
+    y: 6.0
+  }
+  duration: 10.0
+  speed_scale: 1.0
+  chg_time: 1.0
+  continue_time: 3.0
+  reset_time: 1.0
+}
+items {
+  id: 5
+  name: "\345\257\274\345\274\271"
+  template: "Missile"
+  respath: "Prefabs/Skill/skill_test"
+  ui_skill_icon: "Sprites/Scenes/City/city2"
+  hit_efx: "Prefabs/Efx/Battle/skill_hit_fix"
+  type: 1
+  dir: 2
+  avoid_method: 1
+  efx_velocity {
+    x: 6.0
+    y: 6.0
+  }
+  duration: 10.0
+  speed_scale: 0.5
+  chg_time: 1.0
+  continue_time: 3.0
+  reset_time: 1.0
+}
+items {
+  id: 6
+  name: "\351\246\231\350\225\211"
+  template: "Banana"
+  respath: "Prefabs/Skill/skill_test"
+  ui_skill_icon: "Sprites/Scenes/City/city3"
+  hit_efx: "Prefabs/Efx/Battle/skill_hit_fix"
+  type: 2
+  dir: 2
+  avoid_method: 2
+  efx_velocity {
+    x: 6.0
+    y: 6.0
+  }
+  duration: 10.0
+  speed_scale: 0.5
+  chg_time: 1.0
+  continue_time: 3.0
+  reset_time: 1.0
+}
+items {
+  id: 7
+  name: "\346\227\240\346\225\214\346\230\237\346\230\237"
+  template: "SupperStar"
+  respath: "Prefabs/Skill/skill_test"
+  ui_skill_icon: "Sprites/Scenes/Forest/forest1"
+  hit_efx: "Prefabs/Efx/Battle/skill_hit_fix"
+  type: 0
+  dir: 0
+  avoid_method: 0
+  efx_velocity {
+    x: 6.0
+    y: 6.0
+  }
+  duration: 10.0
+  speed_scale: 2.0
+  chg_time: 1.0
+  continue_time: 3.0
+  reset_time: 1.0
+}

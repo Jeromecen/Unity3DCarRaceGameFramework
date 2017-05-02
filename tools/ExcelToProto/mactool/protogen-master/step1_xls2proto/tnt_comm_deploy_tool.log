@@ -1,0 +1,534 @@
+2017-05-02 12:39:55,391|INFO|108|_initlog|
+
+
+
+2017-05-02 12:39:55,391|INFO|109|_initlog|logger is inited!
+2017-05-02 12:39:55,410|INFO|174|Interpreter|begin Interpreter, row_count = 11, col_count = 18
+2017-05-02 12:39:55,410|INFO|203|_FieldDefine|row=0, col=0, repeated_num=0
+2017-05-02 12:39:55,410|INFO|203|_FieldDefine|row=0, col=1, repeated_num=0
+2017-05-02 12:39:55,410|INFO|211|_FieldDefine|required|uint32|id|技能id
+2017-05-02 12:39:55,411|INFO|203|_FieldDefine|row=0, col=2, repeated_num=0
+2017-05-02 12:39:55,411|INFO|211|_FieldDefine|optional|string|name|名称
+2017-05-02 12:39:55,411|INFO|203|_FieldDefine|row=0, col=3, repeated_num=0
+2017-05-02 12:39:55,411|INFO|211|_FieldDefine|optional|string|template|技能模板
+2017-05-02 12:39:55,411|INFO|203|_FieldDefine|row=0, col=4, repeated_num=0
+2017-05-02 12:39:55,411|INFO|211|_FieldDefine|optional|string|respath|技能特效路径
+2017-05-02 12:39:55,411|INFO|203|_FieldDefine|row=0, col=5, repeated_num=0
+2017-05-02 12:39:55,411|INFO|211|_FieldDefine|optional|string|ui_skill_icon|技能图标
+2017-05-02 12:39:55,411|INFO|203|_FieldDefine|row=0, col=6, repeated_num=0
+2017-05-02 12:39:55,411|INFO|211|_FieldDefine|optional|string|hit_efx|命中特效路径
+2017-05-02 12:39:55,411|INFO|203|_FieldDefine|row=0, col=7, repeated_num=0
+2017-05-02 12:39:55,411|INFO|211|_FieldDefine|optional|uint32|type|特效类型
+2017-05-02 12:39:55,411|INFO|203|_FieldDefine|row=0, col=8, repeated_num=0
+2017-05-02 12:39:55,411|INFO|211|_FieldDefine|optional|uint32|dir|特效发射方向
+2017-05-02 12:39:55,411|INFO|203|_FieldDefine|row=0, col=9, repeated_num=0
+2017-05-02 12:39:55,411|INFO|211|_FieldDefine|optional|uint32|avoid_method|汽车避免方式
+2017-05-02 12:39:55,411|INFO|203|_FieldDefine|row=0, col=10, repeated_num=0
+2017-05-02 12:39:55,411|INFO|255|_FieldDefine|optional_struct|2|velocity|efx_velocity
+2017-05-02 12:39:55,411|INFO|203|_FieldDefine|row=0, col=11, repeated_num=0
+2017-05-02 12:39:55,412|INFO|211|_FieldDefine|optional|float|x|特效速度x单位m/s
+2017-05-02 12:39:55,412|INFO|203|_FieldDefine|row=0, col=12, repeated_num=0
+2017-05-02 12:39:55,412|INFO|211|_FieldDefine|optional|float|y|特效速度y单位m/s
+2017-05-02 12:39:55,412|INFO|203|_FieldDefine|row=0, col=13, repeated_num=0
+2017-05-02 12:39:55,412|INFO|211|_FieldDefine|optional|float|duration|特效存在时间
+2017-05-02 12:39:55,412|INFO|203|_FieldDefine|row=0, col=14, repeated_num=0
+2017-05-02 12:39:55,412|INFO|211|_FieldDefine|optional|float|speed_scale|汽车命中速度缩放
+2017-05-02 12:39:55,412|INFO|203|_FieldDefine|row=0, col=15, repeated_num=0
+2017-05-02 12:39:55,412|INFO|211|_FieldDefine|optional|float|chg_time|汽车作用改变时间
+2017-05-02 12:39:55,412|INFO|203|_FieldDefine|row=0, col=16, repeated_num=0
+2017-05-02 12:39:55,412|INFO|211|_FieldDefine|optional|float|continue_time|汽车持续时间
+2017-05-02 12:39:55,412|INFO|203|_FieldDefine|row=0, col=17, repeated_num=0
+2017-05-02 12:39:55,412|INFO|211|_FieldDefine|optional|float|reset_time|汽车恢复时间
+2017-05-02 12:39:55,554|INFO|439|Parse|begin parse, row_count = 11, col_count = 18
+2017-05-02 12:39:55,554|INFO|473|_ParseLine|4
+2017-05-02 12:39:55,554|INFO|489|_ParseField|4|1
+2017-05-02 12:39:55,554|INFO|490|_ParseField|required|uint32|id
+2017-05-02 12:39:55,554|INFO|615|_GetFieldValue|4|1|1.0
+2017-05-02 12:39:55,554|INFO|489|_ParseField|4|2
+2017-05-02 12:39:55,554|INFO|490|_ParseField|optional|string|name
+2017-05-02 12:39:55,554|INFO|615|_GetFieldValue|4|2|弹性手雷
+2017-05-02 12:39:55,554|INFO|489|_ParseField|4|3
+2017-05-02 12:39:55,554|INFO|490|_ParseField|optional|string|template
+2017-05-02 12:39:55,554|INFO|615|_GetFieldValue|4|3|Antitank
+2017-05-02 12:39:55,554|INFO|489|_ParseField|4|4
+2017-05-02 12:39:55,554|INFO|490|_ParseField|optional|string|respath
+2017-05-02 12:39:55,555|INFO|615|_GetFieldValue|4|4|Prefabs/Skill/skill_test
+2017-05-02 12:39:55,555|INFO|489|_ParseField|4|5
+2017-05-02 12:39:55,555|INFO|490|_ParseField|optional|string|ui_skill_icon
+2017-05-02 12:39:55,555|INFO|615|_GetFieldValue|4|5|Sprites/Scenes/Volcano/volcano1
+2017-05-02 12:39:55,555|INFO|489|_ParseField|4|6
+2017-05-02 12:39:55,555|INFO|490|_ParseField|optional|string|hit_efx
+2017-05-02 12:39:55,555|INFO|615|_GetFieldValue|4|6|Prefabs/Efx/Battle/skill_hit_fix
+2017-05-02 12:39:55,555|INFO|489|_ParseField|4|7
+2017-05-02 12:39:55,555|INFO|490|_ParseField|optional|uint32|type
+2017-05-02 12:39:55,555|INFO|615|_GetFieldValue|4|7|1.0
+2017-05-02 12:39:55,555|INFO|489|_ParseField|4|8
+2017-05-02 12:39:55,555|INFO|490|_ParseField|optional|uint32|dir
+2017-05-02 12:39:55,555|INFO|615|_GetFieldValue|4|8|1.0
+2017-05-02 12:39:55,555|INFO|489|_ParseField|4|9
+2017-05-02 12:39:55,555|INFO|490|_ParseField|optional|uint32|avoid_method
+2017-05-02 12:39:55,555|INFO|615|_GetFieldValue|4|9|2.0
+2017-05-02 12:39:55,555|INFO|567|_ParseField|optional_struct|2|velocity|efx_velocity
+2017-05-02 12:39:55,555|INFO|489|_ParseField|4|11
+2017-05-02 12:39:55,555|INFO|490|_ParseField|optional|float|x
+2017-05-02 12:39:55,555|INFO|615|_GetFieldValue|4|11|6.0
+2017-05-02 12:39:55,555|INFO|489|_ParseField|4|12
+2017-05-02 12:39:55,555|INFO|490|_ParseField|optional|float|y
+2017-05-02 12:39:55,555|INFO|615|_GetFieldValue|4|12|6.0
+2017-05-02 12:39:55,555|INFO|489|_ParseField|4|13
+2017-05-02 12:39:55,555|INFO|490|_ParseField|optional|float|duration
+2017-05-02 12:39:55,555|INFO|615|_GetFieldValue|4|13|10.0
+2017-05-02 12:39:55,556|INFO|489|_ParseField|4|14
+2017-05-02 12:39:55,556|INFO|490|_ParseField|optional|float|speed_scale
+2017-05-02 12:39:55,556|INFO|615|_GetFieldValue|4|14|0.5
+2017-05-02 12:39:55,556|INFO|489|_ParseField|4|15
+2017-05-02 12:39:55,556|INFO|490|_ParseField|optional|float|chg_time
+2017-05-02 12:39:55,556|INFO|615|_GetFieldValue|4|15|1.0
+2017-05-02 12:39:55,556|INFO|489|_ParseField|4|16
+2017-05-02 12:39:55,556|INFO|490|_ParseField|optional|float|continue_time
+2017-05-02 12:39:55,556|INFO|615|_GetFieldValue|4|16|3.0
+2017-05-02 12:39:55,556|INFO|489|_ParseField|4|17
+2017-05-02 12:39:55,556|INFO|490|_ParseField|optional|float|reset_time
+2017-05-02 12:39:55,556|INFO|615|_GetFieldValue|4|17|1.0
+2017-05-02 12:39:55,556|INFO|473|_ParseLine|5
+2017-05-02 12:39:55,556|INFO|489|_ParseField|5|1
+2017-05-02 12:39:55,556|INFO|490|_ParseField|required|uint32|id
+2017-05-02 12:39:55,556|INFO|615|_GetFieldValue|5|1|2.0
+2017-05-02 12:39:55,556|INFO|489|_ParseField|5|2
+2017-05-02 12:39:55,556|INFO|490|_ParseField|optional|string|name
+2017-05-02 12:39:55,556|INFO|615|_GetFieldValue|5|2|跟踪减速弹
+2017-05-02 12:39:55,556|INFO|489|_ParseField|5|3
+2017-05-02 12:39:55,556|INFO|490|_ParseField|optional|string|template
+2017-05-02 12:39:55,556|INFO|615|_GetFieldValue|5|3|TrackBomb
+2017-05-02 12:39:55,556|INFO|489|_ParseField|5|4
+2017-05-02 12:39:55,556|INFO|490|_ParseField|optional|string|respath
+2017-05-02 12:39:55,556|INFO|615|_GetFieldValue|5|4|Prefabs/Skill/skill_test
+2017-05-02 12:39:55,556|INFO|489|_ParseField|5|5
+2017-05-02 12:39:55,556|INFO|490|_ParseField|optional|string|ui_skill_icon
+2017-05-02 12:39:55,557|INFO|615|_GetFieldValue|5|5|Sprites/Scenes/Volcano/volcano2
+2017-05-02 12:39:55,557|INFO|489|_ParseField|5|6
+2017-05-02 12:39:55,557|INFO|490|_ParseField|optional|string|hit_efx
+2017-05-02 12:39:55,557|INFO|615|_GetFieldValue|5|6|Prefabs/Efx/Battle/skill_hit_fix
+2017-05-02 12:39:55,557|INFO|489|_ParseField|5|7
+2017-05-02 12:39:55,557|INFO|490|_ParseField|optional|uint32|type
+2017-05-02 12:39:55,557|INFO|615|_GetFieldValue|5|7|1.0
+2017-05-02 12:39:55,557|INFO|489|_ParseField|5|8
+2017-05-02 12:39:55,557|INFO|490|_ParseField|optional|uint32|dir
+2017-05-02 12:39:55,557|INFO|615|_GetFieldValue|5|8|1.0
+2017-05-02 12:39:55,557|INFO|489|_ParseField|5|9
+2017-05-02 12:39:55,557|INFO|490|_ParseField|optional|uint32|avoid_method
+2017-05-02 12:39:55,557|INFO|615|_GetFieldValue|5|9|2.0
+2017-05-02 12:39:55,557|INFO|567|_ParseField|optional_struct|2|velocity|efx_velocity
+2017-05-02 12:39:55,557|INFO|489|_ParseField|5|11
+2017-05-02 12:39:55,557|INFO|490|_ParseField|optional|float|x
+2017-05-02 12:39:55,557|INFO|615|_GetFieldValue|5|11|6.0
+2017-05-02 12:39:55,557|INFO|489|_ParseField|5|12
+2017-05-02 12:39:55,557|INFO|490|_ParseField|optional|float|y
+2017-05-02 12:39:55,557|INFO|615|_GetFieldValue|5|12|6.0
+2017-05-02 12:39:55,557|INFO|489|_ParseField|5|13
+2017-05-02 12:39:55,557|INFO|490|_ParseField|optional|float|duration
+2017-05-02 12:39:55,557|INFO|615|_GetFieldValue|5|13|10.0
+2017-05-02 12:39:55,557|INFO|489|_ParseField|5|14
+2017-05-02 12:39:55,557|INFO|490|_ParseField|optional|float|speed_scale
+2017-05-02 12:39:55,557|INFO|615|_GetFieldValue|5|14|0.5
+2017-05-02 12:39:55,557|INFO|489|_ParseField|5|15
+2017-05-02 12:39:55,557|INFO|490|_ParseField|optional|float|chg_time
+2017-05-02 12:39:55,558|INFO|615|_GetFieldValue|5|15|1.0
+2017-05-02 12:39:55,558|INFO|489|_ParseField|5|16
+2017-05-02 12:39:55,558|INFO|490|_ParseField|optional|float|continue_time
+2017-05-02 12:39:55,558|INFO|615|_GetFieldValue|5|16|3.0
+2017-05-02 12:39:55,558|INFO|489|_ParseField|5|17
+2017-05-02 12:39:55,558|INFO|490|_ParseField|optional|float|reset_time
+2017-05-02 12:39:55,558|INFO|615|_GetFieldValue|5|17|1.0
+2017-05-02 12:39:55,558|INFO|473|_ParseLine|6
+2017-05-02 12:39:55,558|INFO|489|_ParseField|6|1
+2017-05-02 12:39:55,558|INFO|490|_ParseField|required|uint32|id
+2017-05-02 12:39:55,558|INFO|615|_GetFieldValue|6|1|3.0
+2017-05-02 12:39:55,558|INFO|489|_ParseField|6|2
+2017-05-02 12:39:55,558|INFO|490|_ParseField|optional|string|name
+2017-05-02 12:39:55,558|INFO|615|_GetFieldValue|6|2|冰冻球
+2017-05-02 12:39:55,558|INFO|489|_ParseField|6|3
+2017-05-02 12:39:55,558|INFO|490|_ParseField|optional|string|template
+2017-05-02 12:39:55,558|INFO|615|_GetFieldValue|6|3|IceBall
+2017-05-02 12:39:55,558|INFO|489|_ParseField|6|4
+2017-05-02 12:39:55,558|INFO|490|_ParseField|optional|string|respath
+2017-05-02 12:39:55,558|INFO|615|_GetFieldValue|6|4|Prefabs/Skill/skill_test
+2017-05-02 12:39:55,558|INFO|489|_ParseField|6|5
+2017-05-02 12:39:55,558|INFO|490|_ParseField|optional|string|ui_skill_icon
+2017-05-02 12:39:55,558|INFO|615|_GetFieldValue|6|5|Sprites/Scenes/Volcano/volcano3
+2017-05-02 12:39:55,558|INFO|489|_ParseField|6|6
+2017-05-02 12:39:55,558|INFO|490|_ParseField|optional|string|hit_efx
+2017-05-02 12:39:55,558|INFO|615|_GetFieldValue|6|6|Prefabs/Efx/Battle/skill_hit_fix
+2017-05-02 12:39:55,558|INFO|489|_ParseField|6|7
+2017-05-02 12:39:55,559|INFO|490|_ParseField|optional|uint32|type
+2017-05-02 12:39:55,559|INFO|615|_GetFieldValue|6|7|2.0
+2017-05-02 12:39:55,559|INFO|489|_ParseField|6|8
+2017-05-02 12:39:55,559|INFO|490|_ParseField|optional|uint32|dir
+2017-05-02 12:39:55,559|INFO|615|_GetFieldValue|6|8|1.0
+2017-05-02 12:39:55,559|INFO|489|_ParseField|6|9
+2017-05-02 12:39:55,559|INFO|490|_ParseField|optional|uint32|avoid_method
+2017-05-02 12:39:55,559|INFO|615|_GetFieldValue|6|9|2.0
+2017-05-02 12:39:55,559|INFO|567|_ParseField|optional_struct|2|velocity|efx_velocity
+2017-05-02 12:39:55,559|INFO|489|_ParseField|6|11
+2017-05-02 12:39:55,559|INFO|490|_ParseField|optional|float|x
+2017-05-02 12:39:55,559|INFO|615|_GetFieldValue|6|11|6.0
+2017-05-02 12:39:55,559|INFO|489|_ParseField|6|12
+2017-05-02 12:39:55,559|INFO|490|_ParseField|optional|float|y
+2017-05-02 12:39:55,559|INFO|615|_GetFieldValue|6|12|6.0
+2017-05-02 12:39:55,559|INFO|489|_ParseField|6|13
+2017-05-02 12:39:55,559|INFO|490|_ParseField|optional|float|duration
+2017-05-02 12:39:55,559|INFO|615|_GetFieldValue|6|13|10.0
+2017-05-02 12:39:55,559|INFO|489|_ParseField|6|14
+2017-05-02 12:39:55,559|INFO|490|_ParseField|optional|float|speed_scale
+2017-05-02 12:39:55,559|INFO|615|_GetFieldValue|6|14|0.0
+2017-05-02 12:39:55,559|INFO|489|_ParseField|6|15
+2017-05-02 12:39:55,559|INFO|490|_ParseField|optional|float|chg_time
+2017-05-02 12:39:55,559|INFO|615|_GetFieldValue|6|15|1.0
+2017-05-02 12:39:55,559|INFO|489|_ParseField|6|16
+2017-05-02 12:39:55,559|INFO|490|_ParseField|optional|float|continue_time
+2017-05-02 12:39:55,559|INFO|615|_GetFieldValue|6|16|3.0
+2017-05-02 12:39:55,560|INFO|489|_ParseField|6|17
+2017-05-02 12:39:55,560|INFO|490|_ParseField|optional|float|reset_time
+2017-05-02 12:39:55,560|INFO|615|_GetFieldValue|6|17|1.0
+2017-05-02 12:39:55,560|INFO|473|_ParseLine|7
+2017-05-02 12:39:55,560|INFO|489|_ParseField|7|1
+2017-05-02 12:39:55,560|INFO|490|_ParseField|required|uint32|id
+2017-05-02 12:39:55,560|INFO|615|_GetFieldValue|7|1|4.0
+2017-05-02 12:39:55,560|INFO|489|_ParseField|7|2
+2017-05-02 12:39:55,560|INFO|490|_ParseField|optional|string|name
+2017-05-02 12:39:55,560|INFO|615|_GetFieldValue|7|2|章鱼
+2017-05-02 12:39:55,560|INFO|489|_ParseField|7|3
+2017-05-02 12:39:55,560|INFO|490|_ParseField|optional|string|template
+2017-05-02 12:39:55,560|INFO|615|_GetFieldValue|7|3|Octopus
+2017-05-02 12:39:55,560|INFO|489|_ParseField|7|4
+2017-05-02 12:39:55,560|INFO|490|_ParseField|optional|string|respath
+2017-05-02 12:39:55,560|INFO|615|_GetFieldValue|7|4|Prefabs/Skill/skill_test
+2017-05-02 12:39:55,560|INFO|489|_ParseField|7|5
+2017-05-02 12:39:55,560|INFO|490|_ParseField|optional|string|ui_skill_icon
+2017-05-02 12:39:55,560|INFO|615|_GetFieldValue|7|5|Sprites/Scenes/City/city1
+2017-05-02 12:39:55,560|INFO|489|_ParseField|7|6
+2017-05-02 12:39:55,560|INFO|490|_ParseField|optional|string|hit_efx
+2017-05-02 12:39:55,560|INFO|615|_GetFieldValue|7|6|Prefabs/Efx/Battle/skill_hit_fix
+2017-05-02 12:39:55,560|INFO|489|_ParseField|7|7
+2017-05-02 12:39:55,560|INFO|490|_ParseField|optional|uint32|type
+2017-05-02 12:39:55,560|INFO|615|_GetFieldValue|7|7|3.0
+2017-05-02 12:39:55,560|INFO|489|_ParseField|7|8
+2017-05-02 12:39:55,561|INFO|490|_ParseField|optional|uint32|dir
+2017-05-02 12:39:55,561|INFO|615|_GetFieldValue|7|8|1.0
+2017-05-02 12:39:55,561|INFO|489|_ParseField|7|9
+2017-05-02 12:39:55,561|INFO|490|_ParseField|optional|uint32|avoid_method
+2017-05-02 12:39:55,561|INFO|615|_GetFieldValue|7|9|2.0
+2017-05-02 12:39:55,561|INFO|567|_ParseField|optional_struct|2|velocity|efx_velocity
+2017-05-02 12:39:55,561|INFO|489|_ParseField|7|11
+2017-05-02 12:39:55,561|INFO|490|_ParseField|optional|float|x
+2017-05-02 12:39:55,561|INFO|615|_GetFieldValue|7|11|6.0
+2017-05-02 12:39:55,561|INFO|489|_ParseField|7|12
+2017-05-02 12:39:55,561|INFO|490|_ParseField|optional|float|y
+2017-05-02 12:39:55,561|INFO|615|_GetFieldValue|7|12|6.0
+2017-05-02 12:39:55,561|INFO|489|_ParseField|7|13
+2017-05-02 12:39:55,561|INFO|490|_ParseField|optional|float|duration
+2017-05-02 12:39:55,561|INFO|615|_GetFieldValue|7|13|10.0
+2017-05-02 12:39:55,561|INFO|489|_ParseField|7|14
+2017-05-02 12:39:55,561|INFO|490|_ParseField|optional|float|speed_scale
+2017-05-02 12:39:55,561|INFO|615|_GetFieldValue|7|14|1.0
+2017-05-02 12:39:55,561|INFO|489|_ParseField|7|15
+2017-05-02 12:39:55,561|INFO|490|_ParseField|optional|float|chg_time
+2017-05-02 12:39:55,561|INFO|615|_GetFieldValue|7|15|1.0
+2017-05-02 12:39:55,561|INFO|489|_ParseField|7|16
+2017-05-02 12:39:55,561|INFO|490|_ParseField|optional|float|continue_time
+2017-05-02 12:39:55,561|INFO|615|_GetFieldValue|7|16|3.0
+2017-05-02 12:39:55,561|INFO|489|_ParseField|7|17
+2017-05-02 12:39:55,561|INFO|490|_ParseField|optional|float|reset_time
+2017-05-02 12:39:55,561|INFO|615|_GetFieldValue|7|17|1.0
+2017-05-02 12:39:55,561|INFO|473|_ParseLine|8
+2017-05-02 12:39:55,562|INFO|489|_ParseField|8|1
+2017-05-02 12:39:55,562|INFO|490|_ParseField|required|uint32|id
+2017-05-02 12:39:55,562|INFO|615|_GetFieldValue|8|1|5.0
+2017-05-02 12:39:55,562|INFO|489|_ParseField|8|2
+2017-05-02 12:39:55,562|INFO|490|_ParseField|optional|string|name
+2017-05-02 12:39:55,562|INFO|615|_GetFieldValue|8|2|导弹
+2017-05-02 12:39:55,562|INFO|489|_ParseField|8|3
+2017-05-02 12:39:55,562|INFO|490|_ParseField|optional|string|template
+2017-05-02 12:39:55,562|INFO|615|_GetFieldValue|8|3|Missile
+2017-05-02 12:39:55,562|INFO|489|_ParseField|8|4
+2017-05-02 12:39:55,562|INFO|490|_ParseField|optional|string|respath
+2017-05-02 12:39:55,562|INFO|615|_GetFieldValue|8|4|Prefabs/Skill/skill_test
+2017-05-02 12:39:55,562|INFO|489|_ParseField|8|5
+2017-05-02 12:39:55,562|INFO|490|_ParseField|optional|string|ui_skill_icon
+2017-05-02 12:39:55,562|INFO|615|_GetFieldValue|8|5|Sprites/Scenes/City/city2
+2017-05-02 12:39:55,562|INFO|489|_ParseField|8|6
+2017-05-02 12:39:55,562|INFO|490|_ParseField|optional|string|hit_efx
+2017-05-02 12:39:55,562|INFO|615|_GetFieldValue|8|6|Prefabs/Efx/Battle/skill_hit_fix
+2017-05-02 12:39:55,562|INFO|489|_ParseField|8|7
+2017-05-02 12:39:55,562|INFO|490|_ParseField|optional|uint32|type
+2017-05-02 12:39:55,562|INFO|615|_GetFieldValue|8|7|1.0
+2017-05-02 12:39:55,562|INFO|489|_ParseField|8|8
+2017-05-02 12:39:55,562|INFO|490|_ParseField|optional|uint32|dir
+2017-05-02 12:39:55,562|INFO|615|_GetFieldValue|8|8|2.0
+2017-05-02 12:39:55,562|INFO|489|_ParseField|8|9
+2017-05-02 12:39:55,562|INFO|490|_ParseField|optional|uint32|avoid_method
+2017-05-02 12:39:55,562|INFO|615|_GetFieldValue|8|9|1.0
+2017-05-02 12:39:55,563|INFO|567|_ParseField|optional_struct|2|velocity|efx_velocity
+2017-05-02 12:39:55,563|INFO|489|_ParseField|8|11
+2017-05-02 12:39:55,563|INFO|490|_ParseField|optional|float|x
+2017-05-02 12:39:55,563|INFO|615|_GetFieldValue|8|11|6.0
+2017-05-02 12:39:55,563|INFO|489|_ParseField|8|12
+2017-05-02 12:39:55,563|INFO|490|_ParseField|optional|float|y
+2017-05-02 12:39:55,563|INFO|615|_GetFieldValue|8|12|6.0
+2017-05-02 12:39:55,563|INFO|489|_ParseField|8|13
+2017-05-02 12:39:55,563|INFO|490|_ParseField|optional|float|duration
+2017-05-02 12:39:55,563|INFO|615|_GetFieldValue|8|13|10.0
+2017-05-02 12:39:55,563|INFO|489|_ParseField|8|14
+2017-05-02 12:39:55,563|INFO|490|_ParseField|optional|float|speed_scale
+2017-05-02 12:39:55,563|INFO|615|_GetFieldValue|8|14|0.5
+2017-05-02 12:39:55,563|INFO|489|_ParseField|8|15
+2017-05-02 12:39:55,563|INFO|490|_ParseField|optional|float|chg_time
+2017-05-02 12:39:55,563|INFO|615|_GetFieldValue|8|15|1.0
+2017-05-02 12:39:55,563|INFO|489|_ParseField|8|16
+2017-05-02 12:39:55,563|INFO|490|_ParseField|optional|float|continue_time
+2017-05-02 12:39:55,563|INFO|615|_GetFieldValue|8|16|3.0
+2017-05-02 12:39:55,563|INFO|489|_ParseField|8|17
+2017-05-02 12:39:55,563|INFO|490|_ParseField|optional|float|reset_time
+2017-05-02 12:39:55,563|INFO|615|_GetFieldValue|8|17|1.0
+2017-05-02 12:39:55,564|INFO|473|_ParseLine|9
+2017-05-02 12:39:55,564|INFO|489|_ParseField|9|1
+2017-05-02 12:39:55,564|INFO|490|_ParseField|required|uint32|id
+2017-05-02 12:39:55,564|INFO|615|_GetFieldValue|9|1|6.0
+2017-05-02 12:39:55,564|INFO|489|_ParseField|9|2
+2017-05-02 12:39:55,564|INFO|490|_ParseField|optional|string|name
+2017-05-02 12:39:55,564|INFO|615|_GetFieldValue|9|2|香蕉
+2017-05-02 12:39:55,564|INFO|489|_ParseField|9|3
+2017-05-02 12:39:55,564|INFO|490|_ParseField|optional|string|template
+2017-05-02 12:39:55,564|INFO|615|_GetFieldValue|9|3|Banana
+2017-05-02 12:39:55,564|INFO|489|_ParseField|9|4
+2017-05-02 12:39:55,564|INFO|490|_ParseField|optional|string|respath
+2017-05-02 12:39:55,564|INFO|615|_GetFieldValue|9|4|Prefabs/Skill/skill_test
+2017-05-02 12:39:55,564|INFO|489|_ParseField|9|5
+2017-05-02 12:39:55,564|INFO|490|_ParseField|optional|string|ui_skill_icon
+2017-05-02 12:39:55,564|INFO|615|_GetFieldValue|9|5|Sprites/Scenes/City/city3
+2017-05-02 12:39:55,564|INFO|489|_ParseField|9|6
+2017-05-02 12:39:55,564|INFO|490|_ParseField|optional|string|hit_efx
+2017-05-02 12:39:55,564|INFO|615|_GetFieldValue|9|6|Prefabs/Efx/Battle/skill_hit_fix
+2017-05-02 12:39:55,564|INFO|489|_ParseField|9|7
+2017-05-02 12:39:55,564|INFO|490|_ParseField|optional|uint32|type
+2017-05-02 12:39:55,564|INFO|615|_GetFieldValue|9|7|2.0
+2017-05-02 12:39:55,564|INFO|489|_ParseField|9|8
+2017-05-02 12:39:55,564|INFO|490|_ParseField|optional|uint32|dir
+2017-05-02 12:39:55,564|INFO|615|_GetFieldValue|9|8|2.0
+2017-05-02 12:39:55,564|INFO|489|_ParseField|9|9
+2017-05-02 12:39:55,565|INFO|490|_ParseField|optional|uint32|avoid_method
+2017-05-02 12:39:55,565|INFO|615|_GetFieldValue|9|9|2.0
+2017-05-02 12:39:55,565|INFO|567|_ParseField|optional_struct|2|velocity|efx_velocity
+2017-05-02 12:39:55,565|INFO|489|_ParseField|9|11
+2017-05-02 12:39:55,565|INFO|490|_ParseField|optional|float|x
+2017-05-02 12:39:55,565|INFO|615|_GetFieldValue|9|11|6.0
+2017-05-02 12:39:55,565|INFO|489|_ParseField|9|12
+2017-05-02 12:39:55,565|INFO|490|_ParseField|optional|float|y
+2017-05-02 12:39:55,565|INFO|615|_GetFieldValue|9|12|6.0
+2017-05-02 12:39:55,565|INFO|489|_ParseField|9|13
+2017-05-02 12:39:55,565|INFO|490|_ParseField|optional|float|duration
+2017-05-02 12:39:55,565|INFO|615|_GetFieldValue|9|13|10.0
+2017-05-02 12:39:55,565|INFO|489|_ParseField|9|14
+2017-05-02 12:39:55,565|INFO|490|_ParseField|optional|float|speed_scale
+2017-05-02 12:39:55,565|INFO|615|_GetFieldValue|9|14|0.5
+2017-05-02 12:39:55,565|INFO|489|_ParseField|9|15
+2017-05-02 12:39:55,565|INFO|490|_ParseField|optional|float|chg_time
+2017-05-02 12:39:55,565|INFO|615|_GetFieldValue|9|15|1.0
+2017-05-02 12:39:55,565|INFO|489|_ParseField|9|16
+2017-05-02 12:39:55,565|INFO|490|_ParseField|optional|float|continue_time
+2017-05-02 12:39:55,565|INFO|615|_GetFieldValue|9|16|3.0
+2017-05-02 12:39:55,565|INFO|489|_ParseField|9|17
+2017-05-02 12:39:55,565|INFO|490|_ParseField|optional|float|reset_time
+2017-05-02 12:39:55,565|INFO|615|_GetFieldValue|9|17|1.0
+2017-05-02 12:39:55,565|INFO|473|_ParseLine|10
+2017-05-02 12:39:55,565|INFO|489|_ParseField|10|1
+2017-05-02 12:39:55,565|INFO|490|_ParseField|required|uint32|id
+2017-05-02 12:39:55,565|INFO|615|_GetFieldValue|10|1|7.0
+2017-05-02 12:39:55,566|INFO|489|_ParseField|10|2
+2017-05-02 12:39:55,566|INFO|490|_ParseField|optional|string|name
+2017-05-02 12:39:55,566|INFO|615|_GetFieldValue|10|2|无敌星星
+2017-05-02 12:39:55,566|INFO|489|_ParseField|10|3
+2017-05-02 12:39:55,566|INFO|490|_ParseField|optional|string|template
+2017-05-02 12:39:55,566|INFO|615|_GetFieldValue|10|3|SupperStar
+2017-05-02 12:39:55,566|INFO|489|_ParseField|10|4
+2017-05-02 12:39:55,566|INFO|490|_ParseField|optional|string|respath
+2017-05-02 12:39:55,566|INFO|615|_GetFieldValue|10|4|Prefabs/Skill/skill_test
+2017-05-02 12:39:55,566|INFO|489|_ParseField|10|5
+2017-05-02 12:39:55,566|INFO|490|_ParseField|optional|string|ui_skill_icon
+2017-05-02 12:39:55,566|INFO|615|_GetFieldValue|10|5|Sprites/Scenes/Forest/forest1
+2017-05-02 12:39:55,566|INFO|489|_ParseField|10|6
+2017-05-02 12:39:55,566|INFO|490|_ParseField|optional|string|hit_efx
+2017-05-02 12:39:55,566|INFO|615|_GetFieldValue|10|6|Prefabs/Efx/Battle/skill_hit_fix
+2017-05-02 12:39:55,566|INFO|489|_ParseField|10|7
+2017-05-02 12:39:55,566|INFO|490|_ParseField|optional|uint32|type
+2017-05-02 12:39:55,566|INFO|615|_GetFieldValue|10|7|0.0
+2017-05-02 12:39:55,566|INFO|489|_ParseField|10|8
+2017-05-02 12:39:55,566|INFO|490|_ParseField|optional|uint32|dir
+2017-05-02 12:39:55,566|INFO|615|_GetFieldValue|10|8|0.0
+2017-05-02 12:39:55,566|INFO|489|_ParseField|10|9
+2017-05-02 12:39:55,566|INFO|490|_ParseField|optional|uint32|avoid_method
+2017-05-02 12:39:55,566|INFO|615|_GetFieldValue|10|9|0.0
+2017-05-02 12:39:55,566|INFO|567|_ParseField|optional_struct|2|velocity|efx_velocity
+2017-05-02 12:39:55,566|INFO|489|_ParseField|10|11
+2017-05-02 12:39:55,566|INFO|490|_ParseField|optional|float|x
+2017-05-02 12:39:55,567|INFO|615|_GetFieldValue|10|11|6.0
+2017-05-02 12:39:55,567|INFO|489|_ParseField|10|12
+2017-05-02 12:39:55,567|INFO|490|_ParseField|optional|float|y
+2017-05-02 12:39:55,567|INFO|615|_GetFieldValue|10|12|6.0
+2017-05-02 12:39:55,567|INFO|489|_ParseField|10|13
+2017-05-02 12:39:55,567|INFO|490|_ParseField|optional|float|duration
+2017-05-02 12:39:55,567|INFO|615|_GetFieldValue|10|13|10.0
+2017-05-02 12:39:55,567|INFO|489|_ParseField|10|14
+2017-05-02 12:39:55,567|INFO|490|_ParseField|optional|float|speed_scale
+2017-05-02 12:39:55,567|INFO|615|_GetFieldValue|10|14|2.0
+2017-05-02 12:39:55,567|INFO|489|_ParseField|10|15
+2017-05-02 12:39:55,567|INFO|490|_ParseField|optional|float|chg_time
+2017-05-02 12:39:55,567|INFO|615|_GetFieldValue|10|15|1.0
+2017-05-02 12:39:55,567|INFO|489|_ParseField|10|16
+2017-05-02 12:39:55,567|INFO|490|_ParseField|optional|float|continue_time
+2017-05-02 12:39:55,567|INFO|615|_GetFieldValue|10|16|3.0
+2017-05-02 12:39:55,567|INFO|489|_ParseField|10|17
+2017-05-02 12:39:55,567|INFO|490|_ParseField|optional|float|reset_time
+2017-05-02 12:39:55,567|INFO|615|_GetFieldValue|10|17|1.0
+2017-05-02 12:39:55,567|INFO|461|Parse|parse result:
+items {
+  id: 1
+  name: "\345\274\271\346\200\247\346\211\213\351\233\267"
+  template: "Antitank"
+  respath: "Prefabs/Skill/skill_test"
+  ui_skill_icon: "Sprites/Scenes/Volcano/volcano1"
+  hit_efx: "Prefabs/Efx/Battle/skill_hit_fix"
+  type: 1
+  dir: 1
+  avoid_method: 2
+  efx_velocity {
+    x: 6.0
+    y: 6.0
+  }
+  duration: 10.0
+  speed_scale: 0.5
+  chg_time: 1.0
+  continue_time: 3.0
+  reset_time: 1.0
+}
+items {
+  id: 2
+  name: "\350\267\237\350\270\252\345\207\217\351\200\237\345\274\271"
+  template: "TrackBomb"
+  respath: "Prefabs/Skill/skill_test"
+  ui_skill_icon: "Sprites/Scenes/Volcano/volcano2"
+  hit_efx: "Prefabs/Efx/Battle/skill_hit_fix"
+  type: 1
+  dir: 1
+  avoid_method: 2
+  efx_velocity {
+    x: 6.0
+    y: 6.0
+  }
+  duration: 10.0
+  speed_scale: 0.5
+  chg_time: 1.0
+  continue_time: 3.0
+  reset_time: 1.0
+}
+items {
+  id: 3
+  name: "\345\206\260\345\206\273\347\220\203"
+  template: "IceBall"
+  respath: "Prefabs/Skill/skill_test"
+  ui_skill_icon: "Sprites/Scenes/Volcano/volcano3"
+  hit_efx: "Prefabs/Efx/Battle/skill_hit_fix"
+  type: 2
+  dir: 1
+  avoid_method: 2
+  efx_velocity {
+    x: 6.0
+    y: 6.0
+  }
+  duration: 10.0
+  speed_scale: 0.0
+  chg_time: 1.0
+  continue_time: 3.0
+  reset_time: 1.0
+}
+items {
+  id: 4
+  name: "\347\253\240\351\261\274"
+  template: "Octopus"
+  respath: "Prefabs/Skill/skill_test"
+  ui_skill_icon: "Sprites/Scenes/City/city1"
+  hit_efx: "Prefabs/Efx/Battle/skill_hit_fix"
+  type: 3
+  dir: 1
+  avoid_method: 2
+  efx_velocity {
+    x: 6.0
+    y: 6.0
+  }
+  duration: 10.0
+  speed_scale: 1.0
+  chg_time: 1.0
+  continue_time: 3.0
+  reset_time: 1.0
+}
+items {
+  id: 5
+  name: "\345\257\274\345\274\271"
+  template: "Missile"
+  respath: "Prefabs/Skill/skill_test"
+  ui_skill_icon: "Sprites/Scenes/City/city2"
+  hit_efx: "Prefabs/Efx/Battle/skill_hit_fix"
+  type: 1
+  dir: 2
+  avoid_method: 1
+  efx_velocity {
+    x: 6.0
+    y: 6.0
+  }
+  duration: 10.0
+  speed_scale: 0.5
+  chg_time: 1.0
+  continue_time: 3.0
+  reset_time: 1.0
+}
+items {
+  id: 6
+  name: "\351\246\231\350\225\211"
+  template: "Banana"
+  respath: "Prefabs/Skill/skill_test"
+  ui_skill_icon: "Sprites/Scenes/City/city3"
+  hit_efx: "Prefabs/Efx/Battle/skill_hit_fix"
+  type: 2
+  dir: 2
+  avoid_method: 2
+  efx_velocity {
+    x: 6.0
+    y: 6.0
+  }
+  duration: 10.0
+  speed_scale: 0.5
+  chg_time: 1.0
+  continue_time: 3.0
+  reset_time: 1.0
+}
+items {
+  id: 7
+  name: "\346\227\240\346\225\214\346\230\237\346\230\237"
+  template: "SupperStar"
+  respath: "Prefabs/Skill/skill_test"
+  ui_skill_icon: "Sprites/Scenes/Forest/forest1"
+  hit_efx: "Prefabs/Efx/Battle/skill_hit_fix"
+  type: 0
+  dir: 0
+  avoid_method: 0
+  efx_velocity {
+    x: 6.0
+    y: 6.0
+  }
+  duration: 10.0
+  speed_scale: 2.0
+  chg_time: 1.0
+  continue_time: 3.0
+  reset_time: 1.0
+}
+
